@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Cat Image Display taking full screen -->
+    <ImageView
+        android:id="@+id/cat_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/cat_image_desc" />
+
+    <!-- Progress bar at the very bottom showing time remaining for current picture -->
+    <ProgressBar
+        android:id="@+id/cat_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:max="100"
+        android:progress="0" />
+
+</RelativeLayout>

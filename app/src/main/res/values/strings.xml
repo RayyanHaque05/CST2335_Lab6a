@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CST2335 Lab 6</string>
+    <string name="cat_image_desc">Random Cat Slideshow</string>
+    <string name="loading_error">Failed to load cat image</string>
+</resources>
